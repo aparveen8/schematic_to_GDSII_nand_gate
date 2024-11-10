@@ -56,7 +56,7 @@ Simulations were conducted to verify the functionality and timing of the NAND ga
 
 Delay from Terminal 'VA' to 'VOUT':
 <p align="center">
-  <img src="nand_images/ayeshadelaypre1.PNG" />
+  <img src="nand_images/ayeshadelaypre1.png" />
 </p>
 
 ### 4. Layout Creation and Verification
