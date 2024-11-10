@@ -1,4 +1,4 @@
-# NAND Gate Design: Schematic to GDSII using GPDK90 in Cadence
+![drc nand no error](https://github.com/user-attachments/assets/88993ade-79cc-49db-aa23-0e8ec49bd44c)# NAND Gate Design: Schematic to GDSII using GPDK90 in Cadence
 
 This repository contains the complete design flow for a NAND gate, from schematic creation to GDSII generation, using Cadence tools with the GPDK90 process library. A NAND gate is a fundamental digital circuit that produces a low output only when all inputs are high. This project includes schematic design, layout, design rule checks (DRC), layout versus schematic checks (LVS), and RC extraction.
 
@@ -32,17 +32,41 @@ This project follows a standard ASIC design flow for digital circuits:
 ### 1. Schematic Creation
 The NAND gate schematic was created using GPDK90 in Cadence, forming the foundation for further simulation and layout design.
 
+
 **Schematic Diagram:**
-_(Insert your schematic image here)_
+<p align="center">
+  <img src="nand_images/schematic.png" alt="sc" />
+</p>
 
 ### 2. Symbol and Testbench Creation
 A symbol view was generated for the NAND gate, and a testbench was set up to verify its functionality through transient and delay analysis.
+<p align="center">
+  <img src="nand_images/testbench.png" alt="sctes" />
+</p>
 
 ### 3. Pre-Layout Simulation Results
-Simulations were conducted to verify the functionality and timing of the NAND gate.
+Simulations were conducted to verify the functionality and timing of the NAND gate, by setting the adel as shown below.
+<p align="center">
+  <img src="nand_images/setup.png" alt="scaes" />
+</p>
+
+<p align="center">
+  <img src="nand_images/NAND transient.png" alt="scssjs" />
+</p>
+
+<p align="center">
+  <img src="nand_images/NAND transient.png" alt="scssjs" />
+</p>
 
 ### 4. Layout Creation and Verification
 The layout was designed in Cadence Virtuoso using GPDK90. Design Rule Check (DRC) and Layout Versus Schematic (LVS) checks were performed to ensure compliance and accuracy.
+<p align="center">
+  <img src="nand_images/drc nand no error.png"  />
+</p>
+
+<p align="center">
+  <img src="nand_images/lvs nand no error.png" />
+</p>
 
 ### 5. Post-Layout Simulation Results
 Post-layout simulations were performed to observe performance changes due to parasitic elements.
