@@ -51,17 +51,24 @@ Simulations were conducted to verify the functionality and timing of the NAND ga
 </p>
 
 <p align="center">
-  <img src="nand_images/NAND transient.png" alt="scssjs" />
+  <img src="nand_images/NAND Transient.png" alt="scssjs" />
+</p>
+
+Delay from Terminal 'VA' to 'VOUT':
+<p align="center">
+  <img src="nand_images/ayeshadelaypre1" alt="scssjs" />
 </p>
 
 ### 4. Layout Creation and Verification
 The layout was designed in Cadence Virtuoso using GPDK90. Design Rule Check (DRC) and Layout Versus Schematic (LVS) checks were performed to ensure compliance and accuracy.
+#### DRC Result:
 <p align="center">
   <img src="nand_images/drc nand no error.png"  />
 </p>
 
+#### LVS Result:
 <p align="center">
-  <img src="nand_images/lvs nand no error.png" />
+  <img src="nand_images/lvs no error nand.png" />
 </p>
 
 ### 5. Post-Layout Simulation Results
