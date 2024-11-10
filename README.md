@@ -1,4 +1,4 @@
-![drc nand no error](https://github.com/user-attachments/assets/88993ade-79cc-49db-aa23-0e8ec49bd44c)# NAND Gate Design: Schematic to GDSII using GPDK90 in Cadence
+# NAND Gate Design: Schematic to GDSII using GPDK90 in Cadence
 
 This repository contains the complete design flow for a NAND gate, from schematic creation to GDSII generation, using Cadence tools with the GPDK90 process library. A NAND gate is a fundamental digital circuit that produces a low output only when all inputs are high. This project includes schematic design, layout, design rule checks (DRC), layout versus schematic checks (LVS), and RC extraction.
 
@@ -48,10 +48,6 @@ A symbol view was generated for the NAND gate, and a testbench was set up to ver
 Simulations were conducted to verify the functionality and timing of the NAND gate, by setting the adel as shown below.
 <p align="center">
   <img src="nand_images/setup.png" alt="scaes" />
-</p>
-
-<p align="center">
-  <img src="nand_images/NAND transient.png" alt="scssjs" />
 </p>
 
 <p align="center">
